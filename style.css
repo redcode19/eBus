@@ -1,0 +1,194 @@
+body{
+    background: #e7e7e7;
+    max-width: 414px;
+    min-width: 360px;
+}
+.beams{
+    min-height: 200px;
+    display: block
+}
+.landing-page h1{
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 87%;
+    margin-top: -50px;font-weight: bold;
+}
+.bottom-city img{
+    position:fixed; bottom:0;
+}
+.btn-warning{
+    background-color: #face0b;
+    border: 1px #face0b solid;
+    width:70%;
+    padding:5px;
+    font-family: tahoma;
+    font-size: 24px;
+    margin-top:35px;
+}
+#map { left:0; top:0; bottom:0; width:100%; }
+.marker {
+    background-image: url('mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 200px;
+}
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.input-group-text{
+    background: #303030;
+    border:0;
+}
+.form-control{
+    border:0;
+    padding: 20px;
+    height:calc(1.5em + .75rem + 7px);
+    background: #face0b;
+}
+.form-control::placeholder{
+    color:#303030;
+}
+.buttton ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+.buttton ul li{
+    float: left;
+    padding: 12px;
+}
+.buttton ul li a{
+    background: #face0b;
+    padding:10px;
+    border:0; 
+    border-radius:5px;
+    color:#303030;
+    font-family:tahoma
+}
+.top-menu button{
+    position: absolute;
+z-index: 2;
+left: 15px;
+top: 15px;
+border:0;
+background:#face0b;
+border-radius: 20px;
+width: 39px;
+height: 38px;
+}
+.top-menu img{
+    margin-top:-4px;
+}
+.clickable{
+    cursor: pointer;   
+}
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+.panel{
+    position:fixed;
+    bottom:0;
+    background: #e7e7e7;
+    width:100%;
+    -webkit-box-shadow: 0px -7px 95px 21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 95px 21px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 95px 21px rgba(0,0,0,0.75);
+
+}
+.pull-right{
+    left:40%;
+    top:-10%;
+    background: #face0b;
+    color:#303030;
+    position: absolute;
+    padding: 20px;
+    border:0;
+    border-radius:100px;
+    width:70px;
+    text-align: center;
+}
+.pull-right i{
+    font-size:1.7rem;
+}
+.panel-title{
+    height:120px;
+    border-top:5px #face0b solid;
+    background: #303030;
+-webkit-box-shadow: 0px 13px 75px -44px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 75px -44px rgba(0,0,0,0.75);
+box-shadow: 0px 13px 75px -44px rgba(0,0,0,0.75);
+}
+.panel-title table{
+    margin-top:10px;
+    color:#fff
+}
+.cardss{
+    background: #303030;
+    padding:10px;
+    margin:10px;
+    border:0; 
+    border-radius:10px
+}
+.cardss td{
+    color:#fff
+}
+.lang button{
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+    top: 15px;
+    border:0;
+    background: unset;
+    border-radius: 20px;
+    /* position: absolute;
+z-index: 2;
+left: 11px;
+top: 59px;
+border:0;
+background:unset; */
+
+}
+.sh{
+-webkit-box-shadow: inset -5px -79px 97px -96px rgba(0,0,0,0.75); -moz-box-shadow: inset -5px -79px 97px -96px rgba(0,0,0,0.75); box-shadow: inset -5px -79px 97px -96px rgba(0,0,0,0.75);
+}
+.back a{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 12px;
+    border:0;
+    background: unset;
+    border-radius: 20px;
+}
+.homee {
+    position: absolute;
+    z-index: 2;
+    left: 43px;
+    top: 15px;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-body ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin:0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
+}
+.modal-body ul li{
+    float:left;
+    margin:5px;
+}
